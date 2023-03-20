@@ -5,18 +5,18 @@
  *
  * Description: 0, 1, - 9
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
 {
 	int digit = 0;
 
-	while (digil <= 9)
+	while (digit <= 9)
 	{
-		putchar(digil + 48);
+		putchar(digit + 48);
 
-		if (digil != 9)
+		if (digit != 9)
 		{
 			putchar(',');
 			putchar(' ');
