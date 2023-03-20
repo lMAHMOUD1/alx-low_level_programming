@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Describtion: print all aplhabet letters q and e
+ * Description: print all aplhabet letters q and e
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
