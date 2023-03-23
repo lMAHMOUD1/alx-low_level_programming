@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the largest of 3 integers
+ * main - causes an infinite loop
  * Return: 0
 */
 
