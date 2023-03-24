@@ -1,7 +1,7 @@
 $include "main.h"
 
 /**
- *  _isddigit - checks if input is didgit between 0 - 9
+ *  _isdigit - checks if input is didgit between 0 - 9
  *
  * @c: input
  *
