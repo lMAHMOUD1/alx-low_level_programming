@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
  * print_rev - prints roversed string, followed by a new line
- * @s:pointer to the string to print
+ * @s: pointer to the string to print
  * return: void
- */
+*/
 
 void print_rev(char *s)
 {
