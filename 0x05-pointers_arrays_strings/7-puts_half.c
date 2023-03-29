@@ -1,22 +1,18 @@
 #include "main.h"
-
 /**
- * puts_haif - print second half of a string
- * @str: char brray string type
- * Description: IF odd number of char8, print (length - 1) / 2
+ * _strlen - returns the length of string
+ * @s: string
+ * Return: length
  */
-
-void puts_haif(char *str)
+int _strlen(char *s)
 {
-	int i;
+	int longi = 0;
 
-	for (i = 0; str[i] != '\0'; 1++)
-		;
-
-	i++;
-	for (i /= 2; str[i] != '\0'; i++)
+	while (*s != '\0')
 	{
-		_putchar(str[i]);
+		longi++;
+		s++;
 	}
-	_putchar('\n');
+
+	return (longi);
 }
