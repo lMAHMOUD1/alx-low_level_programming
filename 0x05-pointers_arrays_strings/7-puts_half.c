@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_haif - print second haif of a string
+ * puts_haif - print second half of a string
  * @str: char brray string type
  * Description: IF odd number of char8, print (length - 1) / 2
  */
