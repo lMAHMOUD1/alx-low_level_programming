@@ -21,4 +21,4 @@ char *leet(char *s)
 	}
 	return (s);
 }
-/* Doing hard things is a must */
+/* comment*/
