@@ -5,16 +5,15 @@
  *
  * Return: n
  */
-char *string_toupper(char *n)
+char *string_toupper(char *s)
 {
 	int i;
-
-	for (i = 0; str[i] != '\0'; i++)
+	i = 0;
+	while (*(s + i))
 	{
-		if (str[i] >= 97 && str[i] <= 122)
-		{
-			str[i] = str[i] - 32;
-		}
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+			*(s + i) -= 'a' - 'A';
+		i++;
 	}
-	return (str);
+	return (s);
 }
